@@ -1,0 +1,23 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "building a backend server with node.js and express.js",
+  "homepage": "https://github.com/nemekae/node-api#readme",
+  "bugs": {
+    "url": "https://github.com/nemekae/node-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nemekae/node-api.git"
+  },
+  "license": "ISC",
+  "author": "nemekae",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
