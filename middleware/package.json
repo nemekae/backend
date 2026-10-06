@@ -1,0 +1,19 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "description": "building a middle ware with node.js and bodyParser",
+  "license": "ISC",
+  "author": "nemekae",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "express": "^5.2.1",
+    "morgan": "^1.11.0",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
+  }
+}

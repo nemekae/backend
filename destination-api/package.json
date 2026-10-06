@@ -1,0 +1,15 @@
+{
+  "name": "destination-api",
+  "version": "1.0.0",
+  "description": "building a node.js api",
+  "license": "ISC",
+  "author": "nemekae",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}

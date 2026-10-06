@@ -15,6 +15,9 @@ server.get("/contact", (req, res) => {
   res.send("<h3>Get in touch --- nemekae@email.com</h3>");
 });
 
+server.post("/register", (req, res) => {
+  res.sendStatus(201);
+})
 
 server.listen(port, () => {
   console.log(`server running on port ${port}`);
